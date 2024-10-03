@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertitore di temperatura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form>
+        <h1>Convertitore di temperatura:</h1>
+        <input type="number" id="textbox" value="0"><br>
+
+        <input type="radio" id="tofah" name="unità">
+        <label for="tofah" id="scritta">Celsius ➡ Fahrenheit</label><br>
+
+        <input type="radio" id="tocels" name="unità">
+        <label for="tocels" id="scritta">Fahrenheit ➡ Celsius</label><br>
+
+        <button type="button" onclick="converti()">Converti</button>
+        <p id="risultato"></p>
+
+        <h6 id="scritta" class="crediti">Creato da <a href="https://github.com/DRKmochh">DRKmochh</a></h6>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
